@@ -15,12 +15,8 @@ class Solution {
             left++
         }
         val size = right - left + 1
-        println("size $size")
-        println("left $left")
-        println("right $right")
-
+       
         result = Math.max(result, size)
-        println("result $result")
         right++
     }
     return result
